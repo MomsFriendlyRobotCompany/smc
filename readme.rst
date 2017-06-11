@@ -8,6 +8,28 @@ This is a python driver library for the Pololu series of Simple Motor Controller
 
 **still a work in progress**
 
+Install
+---------
+
+::
+
+	pip install smc
+
+Usage
+-------
+
+.. code-block:: python
+
+	from smc import SMC
+	import time
+	
+	mc = SMC('/dev/tty', 115200)
+	mc.init()
+	mc.speed(1000)
+	time.sleep(5)
+	mc.stop()
+
+
 Board
 ----------
 

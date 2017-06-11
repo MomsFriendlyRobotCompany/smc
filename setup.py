@@ -16,7 +16,7 @@ setup(
 	name=PACKAGE_NAME,
 	version=VERSION,
 	author="Kevin Walchko",
-	keywords=['framework', 'robotic', 'robot', 'vision', 'ros', 'distributed'],
+	keywords=['framework', 'robotic', 'robot', 'motor controller'],
 	author_email="kevin.walchko@users.norely.github.com",
 	description="A python driver library for Pololu's Simple Motor Controllers",
 	license="MIT",

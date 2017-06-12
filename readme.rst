@@ -1,5 +1,6 @@
-.. figure:: docs/pics/smc.jpg
-  :target: https://www.pololu.com/product/1373
+.. figure:: https://raw.githubusercontent.com/MomsFriendlyRobotCompany/smc/master/docs/pics/smc.jpg
+	:target: https://www.pololu.com/product/1373
+	:width: 300px
 
 Pololu Simple Motor Controller
 =======================================
@@ -31,7 +32,7 @@ Usage
 
 	from smc import SMC
 	import time
-	
+
 	mc = SMC('/dev/tty', 115200)
 	mc.init()
 	mc.speed(1000)
@@ -42,11 +43,14 @@ Usage
 Board
 ----------
 
-.. figure:: docs/pics/smc-back.jpg
+.. figure:: https://raw.githubusercontent.com/MomsFriendlyRobotCompany/smc/master/docs/pics/smc-back.jpg
+	:width: 300px
 
-.. figure:: docs/pics/smc-io.jpg
+.. figure:: https://raw.githubusercontent.com/MomsFriendlyRobotCompany/smc/master/docs/pics/smc-io.jpg
+	:width: 300px
 
-.. figure:: docs/pics/smc-wiring.jpg
+.. figure:: https://raw.githubusercontent.com/MomsFriendlyRobotCompany/smc/master/docs/pics/smc-wiring.jpg
+	:width: 300px
 
 MIT License
 --------------

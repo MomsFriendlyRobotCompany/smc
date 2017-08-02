@@ -17,12 +17,18 @@ class SMC(object):
 	enable that.
 	"""
 	def __init__(self, port, baudrate=115200, timeout=1):
+		"""
+		Constructor
+		"""
 		self.ser = serial.Serial()
 		self.ser.port = port
 		self.ser.baudrate = baudrate
 		self.timeout = timeout
 
 	def __del__(self):
+		"""
+		Destructor
+		"""
 		self.stop()
 		self.close()
 
@@ -40,7 +46,8 @@ class SMC(object):
 
 	def init(self):
 		"""Opens serial port and puts SMC into binary mode"""
-		self.ser.open()
+		if not self.ser.is_open:
+			self.ser.open()
 		self.write((0x83,))
 
 	def speed(self, speed):
@@ -83,6 +90,9 @@ class SMC(object):
 		self.write(cmd)
 
 	def break(self, level=32):
+		"""
+		Breaks the motor. The level of force is between 0 (coast) and 32 (max).
+		"""
 		if level < 0:
 			level = 0
 		elif level > 32:
@@ -100,5 +110,8 @@ class SMC(object):
 		return (ID, fw)
 
 	def close(self):
+		"""
+		Close serial port
+		"""
 		if self.ser.is_open:
 			self.ser.close()

@@ -8,11 +8,11 @@ Pololu Simple Motor Controller
 .. image:: https://travis-ci.org/MomsFriendlyRobotCompany/smc.svg?branch=master
     :target: https://travis-ci.org/MomsFriendlyRobotCompany/smc
 .. image:: https://img.shields.io/pypi/v/smc.svg
-	:target: https://github.com/MomsFriendlyRobotCompany/smc
+    :target: https://github.com/MomsFriendlyRobotCompany/smc
 .. image:: https://img.shields.io/pypi/l/smc.svg
-	:target: https://github.com/MomsFriendlyRobotCompany/smc
+    :target: https://github.com/MomsFriendlyRobotCompany/smc
 .. image:: https://img.shields.io/pypi/pyversions/smc.svg
-	:target:  https://pypi.python.org/pypi/smc/
+    :target:  https://pypi.python.org/pypi/smc/
 
 This is a python driver library for the Pololu series of Simple Motor Controllers.
 

@@ -13,3 +13,5 @@ install:
     - pip install -U pip setuptools wheel
     - pip install -U pyserial build_utils
     - pip install .
+
+script: python -m nose -v -w tests test.py

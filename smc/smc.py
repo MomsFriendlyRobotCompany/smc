@@ -89,7 +89,7 @@ class SMC(object):
 		cmd = tuple(channelByte, speed)
 		self.write(cmd)
 
-	def break(self, level=32):
+	def mbreak(self, level=32):
 		"""
 		Breaks the motor. The level of force is between 0 (coast) and 32 (max).
 		"""

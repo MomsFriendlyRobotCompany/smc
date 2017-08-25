@@ -66,7 +66,7 @@ class SMC(object):
 				speed = -speed
 			channelByte = 0x86
 
-		cmd = tuple(channelByte, speed & 0x1F, (speed >> 5) & 0x7F)
+		cmd = tuple([channelByte, speed & 0x1F, (speed >> 5) & 0x7F])
 		self.write(cmd)
 
 	def speed7b(self, speed):
@@ -86,7 +86,7 @@ class SMC(object):
 				speed = -speed
 			channelByte = 0x8a
 
-		cmd = tuple(channelByte, speed)
+		cmd = tuple([channelByte, speed])
 		self.write(cmd)
 
 	def mbreak(self, level=32):

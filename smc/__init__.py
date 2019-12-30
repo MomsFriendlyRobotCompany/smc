@@ -1,5 +1,6 @@
 from .smc import SMC
 
-from .version import __version__
+# from .version import __version__
 __author__ = 'Kevin J. Walchko'
 __license__ = 'MIT'
+__version__ = '0.5.2'

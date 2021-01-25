@@ -2,7 +2,6 @@
 
 # Pololu Simple Motor Controller
 
-[![image](https://travis-ci.org/MomsFriendlyRobotCompany/smc.svg?branch=master)](https://travis-ci.org/MomsFriendlyRobotCompany/smc)
 
 [![image](https://img.shields.io/pypi/v/smc.svg)](https://github.com/MomsFriendlyRobotCompany/smc)
 

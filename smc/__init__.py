@@ -1,6 +1,11 @@
 from .smc import SMC
 
+try:
+    from importlib.metadata import version # type: ignore
+except ImportError:
+    from importlib_metadata import version # type: ignore
+
 # from .version import __version__
 __author__ = 'Kevin J. Walchko'
 __license__ = 'MIT'
-__version__ = '0.5.2'
+__version__ = version("smc")

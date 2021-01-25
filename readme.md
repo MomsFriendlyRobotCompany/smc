@@ -4,9 +4,7 @@
 
 
 [![image](https://img.shields.io/pypi/v/smc.svg)](https://github.com/MomsFriendlyRobotCompany/smc)
-
 [![image](https://img.shields.io/pypi/l/smc.svg)](https://github.com/MomsFriendlyRobotCompany/smc)
-
 [![image](https://img.shields.io/pypi/pyversions/smc.svg)](https://pypi.python.org/pypi/smc/)
 
 This is a python driver library for the Pololu series of Simple Motor
@@ -45,7 +43,9 @@ mc.stop()
 ## Board
 
 ![](https://raw.githubusercontent.com/MomsFriendlyRobotCompany/smc/master/docs/pics/smc-back.jpg)
+
 ![](https://raw.githubusercontent.com/MomsFriendlyRobotCompany/smc/master/docs/pics/smc-io.jpg)
+
 ![](https://raw.githubusercontent.com/MomsFriendlyRobotCompany/smc/master/docs/pics/smc-wiring.jpg)
 
 ## MIT License

@@ -45,9 +45,7 @@ mc.stop()
 ## Board
 
 ![](https://raw.githubusercontent.com/MomsFriendlyRobotCompany/smc/master/docs/pics/smc-back.jpg)
-
 ![](https://raw.githubusercontent.com/MomsFriendlyRobotCompany/smc/master/docs/pics/smc-io.jpg)
-
 ![](https://raw.githubusercontent.com/MomsFriendlyRobotCompany/smc/master/docs/pics/smc-wiring.jpg)
 
 ## MIT License

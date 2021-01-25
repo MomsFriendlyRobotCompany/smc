@@ -2,7 +2,6 @@
 
 # Pololu Simple Motor Controller
 
-
 [![image](https://img.shields.io/pypi/v/smc.svg)](https://github.com/MomsFriendlyRobotCompany/smc)
 [![image](https://img.shields.io/pypi/l/smc.svg)](https://github.com/MomsFriendlyRobotCompany/smc)
 [![image](https://img.shields.io/pypi/pyversions/smc.svg)](https://pypi.python.org/pypi/smc/)
